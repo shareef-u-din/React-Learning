@@ -1,29 +1,82 @@
-#Notes
-#Added npm (package manager) using
-npm init
-#added bundler
-parcel (easy to configure)
-parcel Creates a DEV build, Creates server to host app
-it is also doing HMR (hot module replacement) hot reload
-it is using file watching algorithm
-parcel does Image optimization
-it is also doing minification
-it is also doing bundling
-it is also doing Compressing
-code splitting
-differential bundling - to support old browsers
-Diagonostics
-Error Handling
-HTTPS
-Tree Shaking - remove unused code
-Content Hashing
-Different dev and prod build
+# Namaste React 🚀
 
-#npx means executing a package
-#start parcel server using
-npx parcel index.html
-#remove cdn links of react and react dom from index.html
-#<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-#<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-#we will install using npm that will avoid more cdn calls as it will be available in local node modules
 
+# Parcel
+- Dev Build
+- Local Server
+- HMR = Hot Module Replacement
+- File Watching Algorithm - written in C++
+- Caching - Faster Builds
+- Image Optimization
+- Minification
+- Bundling
+- Compress
+- Consistent Hashing
+- Code Splitting
+- Differential Bundling - support older browsers
+- Diagnostic
+- Error Handling
+- HTTPs
+- Tree Shaking - remove unused code
+- Different dev and prod bundles
+
+
+
+# Namaste Food
+
+
+/**
+ * Header
+ *  - Logo
+ *  - Nav Items
+ * Body
+ *  - Search
+ *  - RestaurantContainer
+ *    - RestaurantCard
+ *      - Img
+ *      - Name of Res, Star Rating, cuisine, delery tie
+ * Footer
+ *  - Copyright
+ *  - Links
+ *  - Address
+ *  - Contact
+ */
+
+
+
+ Two types of Export/Import
+
+
+- Default Export/Import
+
+export default Component;
+import Component from "path";
+
+
+- Named Export/Import
+
+export const Component;
+import {Component} from "path";
+
+
+# React Hooks
+ (Normal JS utility functions)
+- useState() - Superpowerful State Variables in react
+- useEffect()
+
+
+
+#  2 types Routing in web apps
+ - Client Side Routing
+ - Server Side Routing
+
+
+
+
+ # Redux Toolkit
+  - Install @reduxjs/toolkit and react-redux
+  - Build our store
+  - Connect our store to our app
+  - Slice (cartSlice)
+  - dispatch(action)
+  - Selector
